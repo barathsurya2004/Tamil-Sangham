@@ -1,0 +1,31 @@
+.container{
+    position: fixed;
+    background-color: #ebbf6c;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo span{
+    font-size: 32.8px;
+    font-weight: 600;
+}
+.logo img {
+    height: 55px;
+    margin: 0 5px;
+}
+
+.button{
+    font-size: 24.3px;
+    margin-right: 8px;
+    color: #ffeed9;
+    padding: 5px 18px;
+    background-color: #1f0331;
+    border-radius: 25px;
+}
