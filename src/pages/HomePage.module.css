@@ -32,15 +32,45 @@
 .container {
     position: relative; /* Change to relative */
     z-index: 3; /* Higher z-index than overlay */
+    display: flex;
 }
 
 .text {
     position: relative; /* Change to relative */
     z-index: 4; /* Higher z-index than container */
     color: white; /* Change text color to ensure visibility */
+    padding: 60px 80px;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+}
+.imgContainer{
+
+padding: 0;
+    border: 7px solid #b1822a;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+
 }
 .image img {
-    width: 512px;
-    height: 512px;
+    width: 410px;
+    aspect-ratio: 1;
     object-fit: cover;
+ /* Ensures the image fits within the circular border */
+}
+
+
+.heading{
+    font-size: 100px;
+    font-weight: bold;
+    color: #e8d9c4;
+}
+.content {
+    font-family: 'agrandir tight';
+    font-size: 35px;
 }

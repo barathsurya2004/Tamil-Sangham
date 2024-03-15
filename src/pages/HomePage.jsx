@@ -5,7 +5,7 @@ import classes from "./HomePage.module.css";
 const HomePage = () => {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <HeroSection />
       <div className={classes.section}>
         <div className={classes.overlay} />
@@ -27,7 +27,9 @@ const HomePage = () => {
             </div>
           </div>
           <div className={classes.image}>
-            <img src="/assets/3.jpeg.jpg" alt="" />
+            <div className={classes.imgContainer}>
+              <img src="/assets/3.jpeg.jpg" alt="" />
+            </div>
           </div>
         </div>
       </div>

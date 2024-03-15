@@ -12,6 +12,10 @@
   src: url(/public/assets/fonts/Agrandir-GrandLight.otf);
   font-weight: 400;
 }
+@font-face {
+  font-family: 'agrandir tight';
+  src: url(/public/assets/fonts/Agrandir-Tight.otf);
+}
 body {
   margin: 0;
   font-family: 'agrandir',-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
