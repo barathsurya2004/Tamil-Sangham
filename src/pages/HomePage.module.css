@@ -1,76 +1,42 @@
-.section {
-    height: 100vh;
+.section{
     width: 100%;
-    overflow: hidden;
+    height: 100vh;
     position: relative;
 }
-
-.backImg {
-    background-image: url("/public/assets/3.jpeg.jpg");
-    filter: blur(8px);
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 1; /* Lower z-index */
-}
-
-.overlay {
+.overlay{
     position: absolute;
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: #240a34a8;
-    z-index: 2; /* Higher z-index than backImg */
+    background-color: #891651ab;
+    z-index: 2;
 }
-
-.container {
-    position: relative; /* Change to relative */
-    z-index: 3; /* Higher z-index than overlay */
-    display: flex;
+.backImg{
+    top: 0;
+    position: absolute;
+    background-image: url('/public/assets/silambam.jpg');
+    background-size:cover;
+    filter: blur(20px);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    z-index: 1;
 }
-
-.text {
-    position: relative; /* Change to relative */
-    z-index: 4; /* Higher z-index than container */
-    color: white; /* Change text color to ensure visibility */
-    padding: 60px 80px;
+.content{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    position: relative;
+    z-index: 6;
+    padding: 50px;
 }
-.image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 50px;
-}
-.imgContainer{
-
-padding: 0;
-    border: 7px solid #b1822a;
-    overflow: hidden;
-    border-radius: 50%;
-    width: 400px;
-    height: 400px;
-
-}
-.image img {
-    width: 410px;
-    aspect-ratio: 1;
-    object-fit: cover;
- /* Ensures the image fits within the circular border */
-}
-
-
-.heading{
-    font-size: 100px;
+.content h1{
     font-weight: bold;
-    color: #e8d9c4;
+    font-size: 90px;
+    text-align: center;
+    color:#ffeed9;
+
 }
-.content {
-    font-family: 'agrandir tight';
-    font-size: 35px;
+ * {
+    margin:0;
 }
