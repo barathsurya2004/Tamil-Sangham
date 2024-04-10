@@ -4,7 +4,7 @@ const EventsCard = () => {
   return (
     <div className={classes.cardsContainer}>
       <div className={classes.card}>
-        <img className={classes.backImgCard} src="/assets/volley3.jpg" />
+        <img className={classes.backImgCard} src="/assets/volley3.jpg" alt="" />
         <div className={classes.overlayCard} />
         <div className={classes.cardContent}>
           <div className={classes.polaroid}>
