@@ -1,0 +1,52 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('/public/assets/VasagarVattamBg.png');
+    background-repeat: repeat-y;
+    background-size: 100% ;
+    padding: 100px 100px;
+}
+.container h1 {
+font-size:68px;
+color:#eabe6c;
+margin-bottom: 30px;
+}
+.grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.leftCardComp{
+
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffedd8;
+    
+}
+.leftCardComp img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-top-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+}
+
+
+
+
+.rightCardComp{
+
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rightCardComp img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-top-right-radius: 15%;
+    border-bottom-left-radius: 15%;
+}
