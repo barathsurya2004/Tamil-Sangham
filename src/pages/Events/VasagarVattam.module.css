@@ -1,0 +1,52 @@
+.container{
+    width: 100%;
+    
+    background-image: url('/public/assets/VasagarVattamBg.png');
+    background-repeat: repeat-y;
+    background-size: 100% ;
+    
+}
+
+.hero{
+    height: 100vh;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heroContent{
+    margin: 0 200px;
+    padding: 30px 25px;
+    border-radius: 20px;
+    display: flex;
+    border: 2px solid #eabe6c;
+    background-color: #89165198;
+    align-items: center;
+    text-align: justify;
+}
+.heroContent img {
+    margin-right: 40px;
+    border-radius: 50%;
+    height: 250px;
+}
+.hero h1{
+    font-family: 'agrandir';
+    font-size: 60px;
+    color:#eabe6c;
+    margin-bottom: 80px;
+}
+
+
+.hero p{
+    font-size: 20px;
+    color:#ffedd8;
+}
+
+.gallery{
+    height: 100vh;
+}
+.gallery .imageSlider{
+    overflow: scroll;
+    display: flex;
+}
