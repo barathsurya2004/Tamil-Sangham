@@ -1,7 +1,6 @@
 import classes from "./EventsCard.module.css";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 const EventsCard = ({ info }) => {
-  const navigate = useNavigate();
   return (
     <div className={classes.cardsContainer}>
       <div className={classes.card}>
