@@ -33,6 +33,15 @@
     border-radius: 30px;
     
 }
+.button a {
+    text-decoration: none;
+    color: #ffeed9;
+}
 .button:hover{
         cursor: pointer;
     }
+
+a{
+    text-decoration: none;
+    color: black;
+}

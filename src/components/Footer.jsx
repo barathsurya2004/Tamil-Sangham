@@ -58,14 +58,18 @@ const Footer = () => {
           <div className={classes.contact}>
             <h1>Contact</h1>
             <h3>IIT Hyderabad, Sangareddy, Telangana, India - 502285</h3>
-            <p>
-              <img src="/assets/email.png" alt="" />
-              tamizhsangam23@gmail.com
-            </p>
-            <p>
-              <img src="/assets/instagram.png" alt="" />
-              thamizh_sangam
-            </p>
+            <a href="mailto:tamizhsangam23@gmail.com">
+              <p>
+                <img src="/assets/email.png" alt="" />
+                tamizhsangam23@gmail.com
+              </p>
+            </a>
+            <a href="https://www.instagram.com/thamizhsangam_iith/">
+              <p>
+                <img src="/assets/instagram.png" alt="" />
+                thamizh_sangam
+              </p>
+            </a>
           </div>
         </div>
       </div>
