@@ -7,7 +7,9 @@ const VasagarVattam = () => {
   const [isActive, setIsActive] = useState(false);
   const [activeQuestion, setActiveQuestion] = useState(null);
   const onClickHandler = (ques) => {
-    setIsActive(!isActive);
+    if ((isActive && ques.key === activeQuestion) || !isActive) {
+      setIsActive(!isActive);
+    }
     console.log(ques);
     setActiveQuestion(ques.key);
   };
@@ -130,7 +132,7 @@ const VasagarVattam = () => {
                   src={image.imgPath}
                   style={{
                     translate: `${margin}px`,
-                    transition: "linear",
+                    transition: "all .5s ease-out",
                   }}
                   alt=""
                 />

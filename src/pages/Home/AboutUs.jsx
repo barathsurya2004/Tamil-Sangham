@@ -10,14 +10,13 @@ const AboutUs = () => {
           <div className={classes.heading}>About us</div>
           <div className={classes.content}>
             <p>
-              Welcome to the website of the INDIAN INSTITUTE OF TECHNOLOGY –
-              HYDERABAD SENTHAMIZH SANGAM. This Sangam offers a platform for
-              those who are interested in Tamil language and culture and also
-              acts as a forum for the Tamil community at IITH. The Sangam is the
-              result of efforts by Tamil students who have been a part of IITH
-              since its beginning in 2008. It took its present form on April 14,
-              2014, with the celebration of the Tamil New Year, bringing
-              together faculty, staff, scholars, and students.
+              Welcome to the INDIAN INSTITUTE OF TECHNOLOGY – HYDERABAD
+              SENTHAMIZH SANGAM, a hub for Tamil language and culture
+              enthusiasts at IITH. Established in 2014 by dedicated Tamil
+              students, the Sangam fosters community among faculty, staff,
+              scholars, and students, celebrating Tamil heritage and traditions.
+              Join us in our journey of preserving and promoting Tamil culture
+              at IITH.
             </p>
           </div>
         </div>

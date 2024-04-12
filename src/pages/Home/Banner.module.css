@@ -1,0 +1,29 @@
+.footerBanner{
+    height: 230px;
+    background-color: #240a34;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footerBanner img {
+    width: 80px;
+}
+.ico{
+    font-family: 'agrandir tight';
+    color: #ffedd8;
+    display: flex;
+    align-items: center;
+    
+}
+.ico h2{
+   font-size: 50px; 
+   font-weight: bold;
+}
+.ico p{
+    font-size: 17px;
+}
+.ico div {
+    margin-left: 20px;
+}

@@ -1,6 +1,7 @@
 import Footer from "../components/Footer";
 import Header from "../components/header";
 import AboutUs from "./Home/AboutUs";
+import Banner from "./Home/Banner";
 import Events from "./Home/Events";
 import HeroSection from "./Home/HeroSection";
 const HomePage = () => {
@@ -10,6 +11,7 @@ const HomePage = () => {
       <HeroSection />
       <AboutUs />
       <Events />
+      <Banner />
       <Footer />
     </>
   );

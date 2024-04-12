@@ -16,7 +16,7 @@
     align-items: center;
 }
 .heroContent{
-    margin: 0 200px;
+    margin: 0 150px;
     padding: 30px 25px;
     border-radius: 20px;
     display: flex;
@@ -34,7 +34,7 @@
     font-family: 'agrandir';
     font-size: 60px;
     color:#eabe6c;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
 }
 
 

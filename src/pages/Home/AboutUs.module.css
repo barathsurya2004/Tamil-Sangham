@@ -31,8 +31,11 @@
 
 .container {
     position: relative; /* Change to relative */
+    height: 100%;
     z-index: 3; /* Higher z-index than overlay */
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .text {
