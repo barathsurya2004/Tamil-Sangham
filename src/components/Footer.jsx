@@ -27,7 +27,7 @@ const Footer = () => {
             <Link to={"/"}>
               <span>News</span>
             </Link>
-            <Link to={"/"}>
+            <Link to={"/gallery"}>
               <span>Gallery</span>
             </Link>
           </div>

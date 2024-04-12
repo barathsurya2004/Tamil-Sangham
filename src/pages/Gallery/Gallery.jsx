@@ -26,7 +26,7 @@ const Gallery = () => {
     {
       title: "TNY Volley ball Tournament'23",
       bkgImg: "/assets/volley3.jpg",
-      available: false,
+      available: true,
       link: null,
     },
     {
@@ -66,7 +66,7 @@ const Gallery = () => {
                 <>
                   <div className={classes.leftCardComp}>
                     <div className={classes.image}>
-                      {available && (
+                      {ele.available && (
                         <div
                           className={`${classes.overlay} ${classes.overlayLeft}`}
                         >
@@ -85,7 +85,7 @@ const Gallery = () => {
                 <>
                   <div className={classes.rightCardComp}>
                     <div className={classes.image}>
-                      {available && (
+                      {ele.available && (
                         <div
                           className={`${classes.overlay} ${classes.overlayRight}`}
                         >
