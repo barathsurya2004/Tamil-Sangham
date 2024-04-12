@@ -49,6 +49,10 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <div className={classes.devs}>
+        <p>Designed by Sreevas TM</p>
+        <p>Developed by Barath Surya M with ❤️</p>
+      </div>
     </>
   );
 };
