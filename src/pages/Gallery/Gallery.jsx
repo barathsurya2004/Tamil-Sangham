@@ -3,7 +3,6 @@ import Header from "../../components/header";
 import classes from "./Gallery.module.css";
 
 const Gallery = () => {
-  const available = false;
   const Mycollections = [
     {
       title: "Tamil Sangham 2018",
